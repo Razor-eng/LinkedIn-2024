@@ -40,11 +40,11 @@ const SignupForm = () => {
             <div className='w-screen h-screen flex justify-center bg-[#F3F2F0]'>
                 <div className='flex flex-col mt-4 items-center'>
                     <div className='mt-4 h-fit w-[100vw] flex flex-col gap-6'>
-                        <div className='ml-48'>
+                        <div className='md:ml-48 ml-2'>
                             <Logo size={'text-3xl'} />
                         </div>
                         <div className='flex flex-col items-center'>
-                            <h2 className='text-3xl'>Make the most of your professional life</h2>
+                            <h2 className='text-3xl ml-2 sm:ml-0'>Make the most of your professional life</h2>
                         </div>
                     </div>
                     <div className='flex flex-col items-center gap-5 border p-10 bg-white mt-5'>

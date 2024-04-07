@@ -42,7 +42,7 @@ const LoginForm = () => {
                         <Logo size={'text-xl'} />
                         <div className='flex flex-col items-center gap-2'>
                             <h2 className='font-semibold text-2xl'>Welcome Back</h2>
-                            <p className='text-gray-500'>{"Don't"} miss your next opportunity. Sign in to stay updated on your professional world.</p>
+                            <p className='text-gray-500 hidden sm:block'>{"Don't"} miss your next opportunity. Sign in to stay updated on your professional world.</p>
                         </div>
                     </div>
                     <div className='flex flex-col items-center gap-5 border p-10 bg-white mt-5'>
