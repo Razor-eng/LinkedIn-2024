@@ -42,7 +42,7 @@ const HomeNavbar = () => {
                         </div>
                     ))}
                 </div>
-                <div className='pl-5 flex gap-1 sm:gap-2 sm:mr-10'>
+                <div className='pl-5 flex gap-2 mr-4 sm:mr-10'>
                     <Link to={'/signup'}>
                         <button className='text-gray-700 rounded-full hover:bg-zinc-100 sm:px-3 py-1 md:px-6 md:py-3'>Join now</button>
                     </Link>

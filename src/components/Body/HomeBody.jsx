@@ -52,19 +52,16 @@ const HomeBody = () => {
                         <span className='text-[#0077B5] font-semibold cursor-pointer'> Cookie Policy.</span>
                     </p>
                 </div>
-                <div className='sm:w-60 sm:ml-16 w-full'>
+                <div className='sm:w-60 sm:ml-16 w-[85vw]'>
                     <button
-                        className="w-fit cursor-pointer bg-[#4285F4] hover:opacity-90 text-white flex items-center gap-5 font-medium border p-2 rounded-lg ml-16 sm:ml-0"
+                        className="sm:w-fit w-full cursor-pointer bg-[#4285F4] hover:opacity-90 text-white flex items-center gap-5 font-medium border p-2 rounded-lg"
                         onClick={googleLogin}
                     >
                         <div className='bg-white h-8 flex items-center justify-center w-8'>
                             <img src="/images/google.png" alt="" className='w-6 h-6' />
                         </div>
-                        <p className='font-medium hidden sm:block'>
+                        <p className='font-medium'>
                             Continue with Google
-                        </p>
-                        <p className='font-medium sm:hidden'>
-                            Google
                         </p>
                     </button>
                 </div>
