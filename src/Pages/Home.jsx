@@ -23,7 +23,7 @@ const Home = () => {
                 <Spinner />
                 :
                 <div className="h-screen w-screen flex flex-col pl-4 md:pl-44 overflow-x-hidden overflow-y-scroll bg-white">
-                    <div className="md:pr-44 pt-2 md:pt-0 md:py-4">
+                    <div className="md:pr-44 pt-2 md:py-4">
                         <HomeNavbar />
                     </div>
                     <div className="flex-1 pt-2 md:pt-10">
